@@ -23,6 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     echo "<p>Рік: $expyear</p>";
     echo "<p>CVC: $cvc</p>";
 } else {
-    echo "Дані не були передані коректно.";
+    echo "Дані не були передані.";
 }
 ?>
